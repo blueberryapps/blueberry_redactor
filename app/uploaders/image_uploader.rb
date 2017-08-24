@@ -12,8 +12,4 @@ class ImageUploader < CarrierWave::Uploader::Base
   version :content do
     process resize_to_limit: [800, 800]
   end
-
-  def extension_white_list
-    ['image/jpeg', 'image/png', 'image/gif', 'image/jpg', 'image/pjpeg', 'image/tiff', 'image/x-png', 'image/svg']
-  end
 end
