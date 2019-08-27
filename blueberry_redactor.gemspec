@@ -17,7 +17,7 @@ Gem::Specification.new do |spec|
 
   spec.files = Dir["{app,config,db,lib}/**/*", 'MIT-LICENSE', 'Rakefile', 'README.md']
 
-  spec.add_dependency 'coffee-rails', '~> 4.2'
+  spec.add_dependency 'coffee-rails', '>= 4.2'
   spec.add_dependency 'rails', '>= 4.0'
   spec.add_dependency 'carrierwave', '~> 0.11.2'
   spec.add_dependency 'cloudinary', '~> 1.8.1'
