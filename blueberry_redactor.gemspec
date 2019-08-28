@@ -21,7 +21,7 @@ Gem::Specification.new do |spec|
   spec.add_dependency 'rails', '>= 4.0'
   spec.add_dependency 'carrierwave', '~> 0.11.2'
   spec.add_dependency 'cloudinary', '~> 1.8.1'
-  spec.add_dependency 'mini_magick', '~> 4.7.0'
+  spec.add_dependency 'mini_magick', '~> 4.9'
   spec.add_dependency 'codemirror-rails', '~> 5.16.0'
 
   spec.add_development_dependency 'sqlite3'
