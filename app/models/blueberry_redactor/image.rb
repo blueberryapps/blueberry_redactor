@@ -1,5 +1,5 @@
 module BlueberryRedactor
   class Image < Attachment
-    mount_uploader :file, ::ImageUploader
+    has_one_attached :file
   end
 end

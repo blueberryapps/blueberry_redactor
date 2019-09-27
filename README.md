@@ -1,5 +1,5 @@
 # BlueberryRedactor
-Blueberry Redactor 2 - Rails engine for easier implementation Redactor 2 wysiwyg with CarrierWave image upload to Cloudinary.
+Blueberry Redactor 2 - Rails engine for easier implementation Redactor 2 wysiwyg with ActiveStorage upload.
 
 ## Usage
 
