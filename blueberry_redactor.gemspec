@@ -10,17 +10,15 @@ Gem::Specification.new do |spec|
   spec.authors     = ['Tonda Pleskac', 'Ondrej Bartas']
   spec.email       = ['apleskac@blueberry.io', 'obrartas@blueberry.io']
 
-  spec.summary     = 'Redactor 2 & Cloudinary - Rails engine.'
-  spec.description = 'Blueberry Redactor 2 - Rails engine for easier implementation Redactor 2 wysiwyg with image upload to Cloudinary'
+  spec.summary     = 'Redactor 2 & ActiveStorage - Rails engine.'
+  spec.description = 'Blueberry Redactor 2 - Rails engine for easier implementation Redactor 2 wysiwyg with image upload to ActiveStorage'
   spec.homepage    = 'http://github.com/blueberry/blueberry_redactor'
   spec.license     = 'MIT'
 
   spec.files = Dir["{app,config,db,lib}/**/*", 'MIT-LICENSE', 'Rakefile', 'README.md']
 
   spec.add_dependency 'coffee-rails', '~> 4.2'
-  spec.add_dependency 'rails', '>= 4.0'
-  spec.add_dependency 'carrierwave', '~> 0.11.2'
-  spec.add_dependency 'cloudinary', '~> 1.8.1'
+  spec.add_dependency 'rails', '>= 5.2'
   spec.add_dependency 'mini_magick', '~> 4.9'
   spec.add_dependency 'codemirror-rails', '~> 5.16.0'
 

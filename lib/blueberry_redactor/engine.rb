@@ -1,4 +1,3 @@
-require 'cloudinary'
 require 'codemirror-rails'
 
 module BlueberryRedactor
